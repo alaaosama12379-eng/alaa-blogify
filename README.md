@@ -8,9 +8,9 @@ JavaScript Project — Full Stack JavaScript course (Eng. Youssef William).
 
 ## Built with
 
-- HTML, CSS and plain JavaScript (no frameworks)
+- HTML, CSS and JavaScript
 - [Axios](https://axios-http.com/) for the API requests
-- [DummyJSON](https://dummyjson.com/) as the API (posts, comments, users)
+- [DummyJSON](https://dummyjson.com/) as the API
 
 ## Pages
 
@@ -19,15 +19,6 @@ JavaScript Project — Full Stack JavaScript course (Eng. Youssef William).
 | `index.html` | All posts: title, first 100 characters, tags, likes, Bookmark button |
 | `post.html?id=ID` | Full post, author name + image, views, likes, all comments, Back button |
 | `bookmarks.html` | Saved posts from localStorage, Remove and Clear All (with confirm) |
-
-## Bonus features
-
-- Welcome message saved in a cookie for 7 days
-- "Saved!" toast message (disappears after 2 seconds)
-- Dark mode (remembered in localStorage)
-- Pagination with Next / Previous (`skip` parameter)
-- Search (waits 500ms after the user stops typing)
-- Reading time on every post (200 words per minute)
 
 ## Project structure
 
