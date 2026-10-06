@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alaa blogify | Post</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <a href="index.html" class="logo">Alaa blogify</a>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="bookmarks.html">Bookmarks</a>
+    </nav>
+    <p id="welcome" class="welcome"></p>
+    <button id="theme-toggle" class="btn">Dark mode</button>
+  </header>
+
+  <main class="container">
+    <button id="back-btn" class="btn">&larr; Back</button>
+
+    <p id="status" class="status"></p>
+
+    <article id="post" class="post-details"></article>
+
+    <section id="comments" class="comments"></section>
+  </main>
+
+  <div id="toast" class="toast"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/axios@1/dist/axios.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/post.js"></script>
+</body>
+</html>
