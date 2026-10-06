@@ -4,8 +4,6 @@ A simple blog website that loads real posts from a public API. Users can browse 
 
 **Live website:** https://alaaosama12379-eng.github.io/alaa-blogify/
 
-JavaScript Project — Full Stack JavaScript course (Eng. Youssef William).
-
 ## Built with
 
 - HTML, CSS and JavaScript
@@ -33,7 +31,3 @@ blogify/
     |-- post.js
     |-- bookmarks.js
 ```
-
-## Run locally
-
-Open the folder in VS Code and use **Live Server** on `index.html`.
